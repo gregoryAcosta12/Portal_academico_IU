@@ -98,6 +98,31 @@ Para explorar la plataforma, no necesitas registrarte. Usa las siguientes creden
 - 🎭 **AuthContext:** Manejo de sesión y roles del usuario.
 
 ---
+FOTOS:
+<img width="1505" height="905" alt="image" src="https://github.com/user-attachments/assets/d2e9b86a-4a0f-4e84-b08b-59f7a72e7abc" />
+
+<img width="1206" height="835" alt="image" src="https://github.com/user-attachments/assets/0639cef9-15da-467d-9b59-d9996408ae19" />
+
+<img width="1502" height="857" alt="image" src="https://github.com/user-attachments/assets/cb9a0c85-cd4d-472b-a6a1-e7f5fd16e01f" />
+
+<img width="1341" height="880" alt="image" src="https://github.com/user-attachments/assets/2c4c782e-d387-40cc-b6aa-b92d3dff0a17" />
+
+<img width="1160" height="876" alt="image" src="https://github.com/user-attachments/assets/b758dedc-228d-46d5-936e-fd0049068f64" />
+
+<img width="932" height="452" alt="image" src="https://github.com/user-attachments/assets/0d15477f-f3b6-4655-b458-218a6c03aa8e" />
+
+<img width="937" height="817" alt="image" src="https://github.com/user-attachments/assets/bb2d256e-7dc5-4bb5-8d60-3dfbf6a1d5f4" />
+
+<img width="1400" height="915" alt="image" src="https://github.com/user-attachments/assets/6ca25a3d-82b2-4ca6-b619-971e3deb4b90" />
+
+<img width="1460" height="857" alt="image" src="https://github.com/user-attachments/assets/34366928-68f2-4eed-a739-bf78336a55d2" />
+
+<img width="1431" height="850" alt="image" src="https://github.com/user-attachments/assets/a422766d-6741-45df-8bcf-d8e75fe11ad3" />
+
+<img width="1457" height="916" alt="image" src="https://github.com/user-attachments/assets/05f83692-5644-489d-a376-87d056c0fa81" />
+
+<img width="1311" height="816" alt="image" src="https://github.com/user-attachments/assets/e16a001d-3bcf-45b2-ac48-5c1abebffb90" />
+
 
 ## 📁 Estructura del Proyecto
 
