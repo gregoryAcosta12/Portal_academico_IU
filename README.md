@@ -1,121 +1,125 @@
-ameStoreGalaxy es un sitio web de comercio electrónico especializado en videojuegos y productos gaming, diseñado para ofrecer una experiencia de compra inmersiva con temática espacial. El proyecto demuestra habilidades en desarrollo web moderno, arquitectura de aplicaciones, y diseño de interfaces de usuario.
+<div align="center">
 
-🛠️ Tecnologías Utilizadas:
-⚛️ Next.js 14 (App Router)
-Framework React con renderizado híbrido (SSR, SSG, ISR)
+# 🎓 Portal Académico - IU University
 
-Sistema de rutas basado en archivos para organización optimizada
+### 🚀 Plataforma de Gestión Universitaria (En Desarrollo)
 
-Optimización automática de imágenes con componente <Image />
+[![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
-Carga perezosa y división de código para mejorar rendimiento
+[![Estado](https://img.shields.io/badge/Estado-En_Desarrollo-orange?style=for-the-badge&logo=statuspage&logoColor=white)]()
 
-Metadata dinámica para SEO y redes sociales
+<br />
 
-🎨 Tailwind CSS
-Framework de utilidades CSS para diseño rápido y personalizable
+> ⚠️ **AVISO IMPORTANTE:** Este proyecto se encuentra actualmente **en fase de desarrollo**. Algunas funcionalidades son simuladas (Mock Data) y no están conectadas a un backend real todavía. Se recomienda usar los **Usuarios de Prueba** para explorar la plataforma.
 
-Sistema de diseño con temática oscura y efectos neón
+</div>
 
-Gradientes, blur, y efectos de glow para experiencia inmersiva
+---
 
-Componentes reutilizables con clases utilitarias
+## 📸 Capturas de Pantalla
 
-Responsive design con breakpoints personalizados
+| 🔐 Inicio de Sesión | 📊 Dashboard |
+| :---: | :---: |
+| *Diseño moderno con partículas animadas y modo oscuro.* | *Resumen general con gráficos dinámicos, accesos rápidos y actividad reciente.* |
 
-📘 TypeScript
-Tipado estático para código más seguro y mantenible
+| 👤 Perfil de Usuario | ⚙️ Configuración |
+| :---: | :---: |
+| *Información personal, académica y logros según el rol.* | *Gestión de tema (Claro/Oscuro), idioma (ES/EN/PT) y seguridad.* |
 
-Interfaces para productos, categorías y tipos de datos
+---
 
-Autocompletado y detección temprana de errores
+## ✨ Características Principales
 
-Mejor experiencia de desarrollo con IDE
+### 🎨 Interfaz y Experiencia de Usuario (UI/UX)
+- 🌓 **Modo Oscuro / Claro:** Transiciones suaves y persistencia en `localStorage`.
+- 🌐 **Multi-idioma (i18n):** Soporte completo para Español, Inglés y Portugués.
+- ✨ **Animaciones Fluidas:** Partículas de fondo interactivas, transiciones en CSS y micro-interacciones.
+- 📱 **Diseño Responsive:** Adaptado para móviles, tablets y escritorio.
+- 💎 **Glassmorphism:** Efectos de cristal esmerilado en tarjetas y modales.
 
-💫 Framer Motion
-Animaciones fluidas y transiciones profesionales
+### 🛡️ Seguridad y Autenticación
+- 🔑 **Sistema de Login:** Validación en tiempo real y carga de usuarios demo.
+- 🔒 **Cambio de Contraseña:** Modal con validación de requisitos de seguridad (8 caracteres, mayúscula, minúscula, número).
+- 🛡️ **Autenticación 2FA (Simulada):** Configuración de dos pasos con código QR falso y verificación de código.
+- 🗑️ **Eliminación de Cuenta:** Flujo de confirmación de doble paso.
 
-Gestión de estados de animación (hover, tap, drag)
+### 🎓 Módulos Académicos (Simulados)
+- 👨‍🎓 **Gestión de Estudiantes:** Tabla interactiva con buscador, filtros y CRUD completo.
+- 📚 **Catálogo de Materias:** Gestión de créditos, cupos disponibles y profesores asignados.
+- 📝 **Nueva Inscripción:** Wizard de 3 pasos con cálculo automático de créditos.
+- 📊 **Calificaciones:** Historial académico, promedios y estados (Aprobado/Reprobado).
+- 📈 **Reportes Dinámicos:** Gráficos de tendencias, distribución de facultades y exportación a CSV/PDF.
 
-Animaciones de entrada/salida con efectos de resorte
+---
 
-Stagger animations para listas de productos
+## 👥 Roles y Permisos
 
-Micro-interacciones que mejoran la UX
+El sistema cuenta con un control de acceso basado en roles (RBAC). La interfaz se adapta dinámicamente según el usuario que inicie sesión:
 
-🎯 React 18
-Componentes funcionales con Hooks (useState, useEffect, useMemo)
+| Rol | Descripción | Acceso Principal |
+| :--- | :--- | :--- |
+| 🛡️ **Admin** | Control total del sistema. | Gestión de estudiantes, materias, reportes globales y configuración. |
+| 👨‍🏫 **Profesor** | Gestión docente. | Visualización de estudiantes, materias y reporte de calificaciones. |
+| 👨‍🎓 **Estudiante** | Vista personal. | Mi Perfil, Mis Calificaciones, Mi Progreso, Mis Materias. |
 
-Context API para gestión de estado global del carrito
+---
 
-Renderizado eficiente con reconciliación optimizada
+## 🔐 Usuarios de Prueba (Modo Demo)
 
-Componentes reutilizables y composables
+Para explorar la plataforma, no necesitas registrarte. Usa las siguientes credenciales en la pantalla de Login:
 
-🎨 Lucide React
-Biblioteca de iconos modernos y escalables
+| Usuario | Contraseña | Rol | Notas |
+| :--- | :--- | :--- | :--- |
+| `admin` | `123456` | Administrador | Acceso completo a módulos de gestión. |
+| `profesor` | `123456` | Profesor | Vista de gestión académica. |
+| `estudiante` | `123456` | Estudiante | Vista de calificaciones y perfil personal. |
 
-Iconos SVG optimizados para rendimiento
+> 💡 *Tip: Los campos ya vienen prellenados con el usuario `estudiante` para que entres con un solo clic.*
 
-Personalización de tamaño, color y peso
+---
 
-📊 Vercel Analytics
-Monitoreo de rendimiento y uso en tiempo real
+## 🛠️ Stack Tecnológico
 
-Métricas de Core Web Vitals (LCP, CLS, FID)
+### Frontend
+- ⚛️ **React 18** (Functional Components, Hooks, Context API)
+- 🟦 **TypeScript** (Tipado estricto y modular)
+- 🎨 **Tailwind CSS** (Utility-first, Dark Mode, Animaciones personalizadas)
+- 🚦 **React Router DOM v6** (Navegación SPA)
+- 📊 **Recharts** (Gráficos y visualización de datos)
+- 🎭 **React Icons** (Librería de íconos vectoriales)
+- 📝 **React Hook Form + Yup** (Validación de formularios)
 
-Análisis de comportamiento de usuarios
+### Estado Global (Context API)
+- 🌓 **ThemeContext:** Manejo del tema claro/oscuro/sistema.
+- 🌐 **LanguageContext:** Traducciones dinámicas (i18n).
+- 🎭 **AuthContext:** Manejo de sesión y roles del usuario.
 
-✨ Funcionalidades Implementadas
-🛒 Sistema de Carrito de Compras
-Context API para estado global
+---
 
-Añadir/eliminar productos con animaciones
+## 📁 Estructura del Proyecto
 
-Ajuste de cantidades en tiempo real
-
-Cálculo automático de totales
-
-Persistencia del estado
-
-Animaciones de entrada/salida con Framer Motion
-
-🔍 Búsqueda y Filtros
-Búsqueda en tiempo real por nombre, categoría o marca
-
-Filtrado por categorías con feedback visual
-
-Sistema de eventos personalizados para navegación
-
-Experiencia de usuario fluida sin recargas
-
-🎮 Catálogo de Productos
-Grid responsivo (2, 3 o 4 columnas según dispositivo)
-
-Tarjetas de producto con hover animations
-
-Etiquetas de estado (Nuevo, Oferta, Top ventas)
-
-Badges de descuento con cálculos automáticos
-
-Sistema de calificaciones con estrellas
-
-🎨 Diseño y Experiencia de Usuario
-Temática espacial con degradados y efectos neón
-
-Modo oscuro nativo con colorScheme: 'dark'
-
-Animaciones de carga con skeleton
-
-Micro-interacciones en botones y elementos
-
-Diseño completamente responsivo
-
-⚡ Optimización y Rendimiento
-Imágenes optimizadas con Next.js Image
-
-Fuentes optimizadas con Google Fonts (Geist, Space Grotesk)
-
-Lazy loading de componentes
-
-Código dividido por rutas y componentes
+```text
+mi-frontend/
+├── public/                  # Archivos estáticos
+├── src/
+│   ├── api/                 # Lógica de API (Mocks y configuración de Axios)
+│   ├── components/          # Componentes reutilizables
+│   │   ├── auth/            # Login, Register, AuthLayout
+│   │   ├── dashboard/       # Gráficos, Stats, QuickActions, etc.
+│   │   ├── estudiantes/     # Tablas y modales de estudiantes
+│   │   ├── layout/          # Header, Sidebar
+│   │   ├── profile/         # Componentes del perfil
+│   │   ├── settings/        # Modales de Seguridad y Configuración
+│   │   └── ui/              # Componentes base (Button, Input, Card, Modal)
+│   ├── contexts/            # Contextos globales (Auth, Theme, Language)
+│   ├── hooks/               # Custom Hooks (useAuth, useTheme, useLanguage)
+│   ├── i18n/                # Archivos de traducción (ES/EN/PT)
+│   ├── pages/               # Vistas principales
+│   ├── types/               # Interfaces y tipos de TypeScript
+│   └── index.css            # Estilos globales y animaciones
+├── tailwind.config.js       # Configuración de Tailwind (o equivalente)
+├── vite.config.ts           # Configuración de Vite
+└── package.json
